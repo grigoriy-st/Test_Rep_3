@@ -1,0 +1,121 @@
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+index 26d3352..0000000
+--- a/.idea/.gitignore
++++ /dev/null
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+diff --git a/.idea/Test_Rep_3.iml b/.idea/Test_Rep_3.iml
+deleted file mode 100644
+index d0876a7..0000000
+--- a/.idea/Test_Rep_3.iml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+index 105ce2d..0000000
+--- a/.idea/inspectionProfiles/profiles_settings.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+index d9f5bdf..0000000
+--- a/.idea/misc.xml
++++ /dev/null
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (YLProject)" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+index 88d56f1..0000000
+--- a/.idea/modules.xml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Test_Rep_3.iml" filepath="$PROJECT_DIR$/.idea/Test_Rep_3.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+index 7011459..0000000
+--- a/.idea/vcs.xml
++++ /dev/null
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="" vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$/human" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/README b/README
+new file mode 100644
+index 0000000..975e13a
+--- /dev/null
++++ b/README
+@@ -0,0 +1,3 @@
++Create release branch with human (master) in boots (boots branch) and hat (hat branch).
++
++You must receive some image as in demo branch
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index 8f4c45f..0000000
+--- a/README.md
++++ /dev/null
+@@ -1 +0,0 @@
+-# Test_Rep_3
+\ No newline at end of file
+diff --git a/human b/human
+deleted file mode 160000
+index 8c523e3..0000000
+--- a/human
++++ /dev/null
+@@ -1 +0,0 @@
+-Subproject commit 8c523e3b2d1b76cef0044862a424df42b9be0d77
+diff --git a/human.txt b/human.txt
+index 8ac7287..4622f57 100644
+--- a/human.txt
++++ b/human.txt
+@@ -5,10 +5,11 @@
+    =  =  =
+     = = = 
+  == ===== == 
+-=  =     =  =
+-=  =     =  =
+- == =   = ==
++=  =  0  =  =
++=  =  0  =  =
++ == = 0 = ==
+     = = =
+     = = =
+-   === ===
++  ==== ====
++ ===== =====
+ 
